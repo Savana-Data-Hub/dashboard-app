@@ -28,7 +28,7 @@ jobs:
       - name: Checkout target repository
         uses: actions/checkout@v4
         with:
-          repository: Savana-Data-Hub/dashboard-app-build.git
+          repository: Savana-Data-Hub/dashboard-app-build
           ref: main
           token: ${{ secrets.CI_PAT }}
           path: app
